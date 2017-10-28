@@ -1,0 +1,10 @@
+{
+    "selector": "source.ruby",
+    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+    "shell": true,
+    "cmd": ["${packages}/User/ruby-build.bat","$file_name"],
+    "windows":
+    {
+        "encoding": "cp932"
+    }
+}

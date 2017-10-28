@@ -1,0 +1,633 @@
+{
+	"folder_history":
+	[
+		"/C/Users/sinoh/Desktop/sublime/Src",
+		"/E/Soft/Dev/editer/sublime/Src",
+		"/C/Users/no1fushi/Desktop/Ruby_Dev/Src",
+		"/C/Users/no1fushi/Desktop/Ruby_Dev/Src/Chaser"
+	],
+	"last_version": 3143,
+	"last_window_id": 4,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"w",
+						"walkLeft〔function〕"
+					],
+					[
+						"tar",
+						"target"
+					],
+					[
+						"g",
+						"gems/"
+					],
+					[
+						"r",
+						"ruby/"
+					],
+					[
+						"i",
+						"i386-mingw32/"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Ruby/Ruby.sublime-build",
+							""
+						],
+						[
+							"Packages/User/Ruby_Original.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/Ruby_Original.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Ruby/Ruby.sublime-build",
+							""
+						],
+						[
+							"Packages/User/oruby.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/oruby.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Ruby/Ruby.sublime-build",
+							""
+						],
+						[
+							"Packages/User/untitled.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/untitled.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/untitled.sublime-build",
+							""
+						],
+						[
+							"Packages/User/untitled.sublime-build",
+							"ビルドして実行"
+						],
+						[
+							"Packages/User/untitled.sublime-build",
+							"ターミナルで開く"
+						]
+					],
+					[
+						"Packages/User/untitled.sublime-build",
+						"ビルドして実行"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 326.0,
+				"last_filter": "pacage ",
+				"selected_items":
+				[
+					[
+						"pacage ",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control:re",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: is",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 436.0
+			},
+			"console":
+			{
+				"height": 130.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"pacagecontrol",
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Src/Test3.rb",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text/Sublime Text Build 3143/Data/Packages/User/untitled.sublime-build",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text/Sublime Text Build 3143/Data/Packages/User/Ruby Debugger.sublime-settings",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text/Sublime Text Build 3143/Data/Packages/Ruby Debugger/Ruby Debugger.sublime-settings",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Src/Chaser/Test3.rb",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Src/Chaser/look.rb",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Src/Chaser/model.rb",
+				"/C/Users/no1fushi/Desktop/discordbot.rb",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text/Sublime Text Build 3143/Data/Packages/User/SublimeCodeIntel.sublime-settings",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text/Sublime Text Build 3143/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text/Sublime Text Build 3143/Data/Packages/User/Preferences.sublime-settings",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text Build 3143/Data/Packages/User/Preferences.sublime-settings",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text Build 3143/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/no1fushi/Desktop/Sublime Text Build 3143/Data/Packages/Default/Default (Windows).sublime-keymap",
+				"/C/Users/no1fushi/Desktop/Sublime Text Build 3143/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/no1fushi/Desktop/Sublime Text Build 3143/Data/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 37.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"a",
+					"package"
+				],
+				"highlight": false,
+				"in_selection": true,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": true,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 37.0
+			},
+			"input":
+			{
+				"height": 43.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 182.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 70.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"values",
+						"values[6"
+					],
+					[
+						"ra",
+						"rand"
+					],
+					[
+						"va",
+						"values[4"
+					],
+					[
+						"w",
+						"walkLeft〔function〕"
+					],
+					[
+						"tar",
+						"target"
+					],
+					[
+						"g",
+						"gems/"
+					],
+					[
+						"r",
+						"ruby/"
+					],
+					[
+						"i",
+						"i386-mingw32/"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "Packages/User/Ruby_Original.sublime-build",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Ruby/Ruby.sublime-build",
+							""
+						],
+						[
+							"Packages/User/Ruby_Original.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/Ruby_Original.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Ruby/Ruby.sublime-build",
+							""
+						],
+						[
+							"Packages/User/oruby.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/oruby.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Ruby/Ruby.sublime-build",
+							""
+						],
+						[
+							"Packages/User/untitled.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/untitled.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/untitled.sublime-build",
+							""
+						],
+						[
+							"Packages/User/untitled.sublime-build",
+							"ビルドして実行"
+						],
+						[
+							"Packages/User/untitled.sublime-build",
+							"ターミナルで開く"
+						]
+					],
+					[
+						"Packages/User/untitled.sublime-build",
+						"ビルドして実行"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 375.0,
+				"last_filter": "Package Control: ",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: i",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Preferences: Package Control Settings – Default"
+					],
+					[
+						"pacage ",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control:re",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: is",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 536.0
+			},
+			"console":
+			{
+				"height": 130.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"pacagecontrol",
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/E/Soft/Dev/editer/sublime/Src/model.rb",
+				"/E/Soft/Dev/editer/sublime/Src/hatai.rb",
+				"/E/Soft/Dev/editer/sublime/Src/horiuchi.rb",
+				"/E/Soft/Dev/editer/sublime/Src/sinoda.rb",
+				"/E/Soft/Dev/editer/sublime/Src/YSHR3_M2.rb",
+				"/E/Soft/Dev/editer/sublime/Src/YSHR3_M4.rb",
+				"/E/Soft/Dev/editer/sublime/Src/YSHR3_M3.rb",
+				"/E/Soft/Dev/editer/sublime/Src/YSHR3_M1.rb",
+				"/E/Soft/Dev/editer/sublime/Src/look.rb",
+				"/E/Soft/Dev/editer/sublime/Src/def/look.rb",
+				"/E/Soft/Dev/editer/sublime/Src/def/haaku.rb",
+				"/E/Soft/Dev/editer/sublime/Src/haaku.rb",
+				"/E/Soft/Dev/editer/sublime/Src/haaku.rb.txt",
+				"/E/Soft/Dev/editer/sublime/Src/CHaserConnect.rb",
+				"/E/Soft/Dev/editer/eclipse/workspace/test/look.rb",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Src/model.rb",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text/Sublime Text Build 3143/Data/Packages/User/Preferences.sublime-settings",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Src/CHaserConnect.rb",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Src/Test3.rb",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text/Sublime Text Build 3143/Data/Packages/Package Control/Package Control.sublime-settings",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text/Sublime Text Build 3143/Data/Packages/User/SublimeCodeIntel.sublime-settings",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text/Sublime Text Build 3143/Data/Packages/User/untitled.sublime-build",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text/Sublime Text Build 3143/Data/Packages/User/Ruby Debugger.sublime-settings",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text/Sublime Text Build 3143/Data/Packages/Ruby Debugger/Ruby Debugger.sublime-settings",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Src/Chaser/Test3.rb",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Src/Chaser/look.rb",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Src/Chaser/model.rb",
+				"/C/Users/no1fushi/Desktop/discordbot.rb",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text/Sublime Text Build 3143/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text Build 3143/Data/Packages/User/Preferences.sublime-settings",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text Build 3143/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/no1fushi/Desktop/Sublime Text Build 3143/Data/Packages/Default/Default (Windows).sublime-keymap",
+				"/C/Users/no1fushi/Desktop/Sublime Text Build 3143/Data/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/no1fushi/Desktop/Sublime Text Build 3143/Data/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 37.0
+			},
+			"find_in_files":
+			{
+				"height": 96.5,
+				"where_history":
+				[
+					"C:\\Users\\no1fushi\\Desktop\\Ruby_Dev\\Src"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"a",
+					"package"
+				],
+				"highlight": false,
+				"in_selection": true,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": true,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				},
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 37.0
+			},
+			"input":
+			{
+				"height": 43.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.971751412429,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 182.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-1,-1,-1,-1,530,163,0,811",
+			"project": "",
+			"replace":
+			{
+				"height": 70.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

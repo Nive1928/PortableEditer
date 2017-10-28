@@ -1,0 +1,19 @@
+{
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 2,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Bright (SL).tmTheme",
+	"font_size": 12,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"index_exclude_patterns":
+	[
+		"Test1.rb",
+		"*.log"
+	],
+	"scroll_speed": 0,
+	"theme": "Nil.sublime-theme"
+}
