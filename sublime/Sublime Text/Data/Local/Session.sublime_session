@@ -1,8 +1,7 @@
 {
 	"folder_history":
 	[
-		"/C/Users/sinoh/Desktop/sublime/Src",
-		"/E/Soft/Dev/editer/sublime/Src",
+		"/C/Users/no1fushi/Desktop/Ruby_Dev-org/Src",
 		"/C/Users/no1fushi/Desktop/Ruby_Dev/Src",
 		"/C/Users/no1fushi/Desktop/Ruby_Dev/Src/Chaser"
 	],
@@ -277,16 +276,28 @@
 				"selected_items":
 				[
 					[
-						"values",
-						"values[6"
+						"ini",
+						"initPosi〔variable〕"
 					],
 					[
-						"ra",
-						"rand"
+						"j",
+						"judgB"
 					],
 					[
-						"va",
-						"values[4"
+						"ite",
+						"itemCountB"
+					],
+					[
+						"wall",
+						"wallCountB"
+					],
+					[
+						"in",
+						"intPosi"
+					],
+					[
+						"_e",
+						"_enemy"
 					],
 					[
 						"w",
@@ -312,6 +323,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/C/Users/no1fushi/Desktop/Ruby_Dev-org/Src/model.rb",
+					"settings":
+					{
+						"buffer_size": 12279,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				}
 			],
 			"build_system": "Packages/User/Ruby_Original.sublime-build",
 			"build_system_choices":
@@ -442,23 +462,15 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+				"/C/Users/no1fushi/Desktop/Ruby_Dev/Src",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev-org/Src"
+			],
 			"file_history":
 			[
-				"/E/Soft/Dev/editer/sublime/Src/model.rb",
-				"/E/Soft/Dev/editer/sublime/Src/hatai.rb",
-				"/E/Soft/Dev/editer/sublime/Src/horiuchi.rb",
-				"/E/Soft/Dev/editer/sublime/Src/sinoda.rb",
-				"/E/Soft/Dev/editer/sublime/Src/YSHR3_M2.rb",
-				"/E/Soft/Dev/editer/sublime/Src/YSHR3_M4.rb",
-				"/E/Soft/Dev/editer/sublime/Src/YSHR3_M3.rb",
-				"/E/Soft/Dev/editer/sublime/Src/YSHR3_M1.rb",
-				"/E/Soft/Dev/editer/sublime/Src/look.rb",
-				"/E/Soft/Dev/editer/sublime/Src/def/look.rb",
-				"/E/Soft/Dev/editer/sublime/Src/def/haaku.rb",
-				"/E/Soft/Dev/editer/sublime/Src/haaku.rb",
-				"/E/Soft/Dev/editer/sublime/Src/haaku.rb.txt",
-				"/E/Soft/Dev/editer/sublime/Src/CHaserConnect.rb",
-				"/E/Soft/Dev/editer/eclipse/workspace/test/look.rb",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev-org/Src/MissKishi.rb",
+				"/C/Users/no1fushi/Desktop/Ruby_Dev-org/Src/CHaserConnect.rb",
 				"/C/Users/no1fushi/Desktop/Ruby_Dev/Src/model.rb",
 				"/C/Users/no1fushi/Desktop/Ruby_Dev/Sublime Text/Sublime Text Build 3143/Data/Packages/User/Preferences.sublime-settings",
 				"/C/Users/no1fushi/Desktop/Ruby_Dev/Src/CHaserConnect.rb",
@@ -481,14 +493,13 @@
 			],
 			"find":
 			{
-				"height": 37.0
+				"height": 34.5
 			},
 			"find_in_files":
 			{
-				"height": 96.5,
+				"height": 0.0,
 				"where_history":
 				[
-					"C:\\Users\\no1fushi\\Desktop\\Ruby_Dev\\Src"
 				]
 			},
 			"find_state":
@@ -496,16 +507,20 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"tar",
+					"go",
+					"_redGa",
 					"a",
 					"package"
 				],
 				"highlight": false,
-				"in_selection": true,
+				"in_selection": false,
 				"preserve_case": false,
 				"regex": false,
 				"replace_history":
 				[
-					""
+					"@tar",
+					"@go"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -513,11 +528,126 @@
 				"whole_word": true,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "C:\\Users\\no1fushi\\Desktop\\Ruby_Dev\\Src"
+				},
+				{
+					"path": "C:\\Users\\no1fushi\\Desktop\\Ruby_Dev-org\\Src"
+				}
+			],
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/C/Users/no1fushi/Desktop/Ruby_Dev-org/Src/model.rb",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 12279,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										579,
+										579
+									]
+								],
+								"settings":
+								{
+									"auto_complete": false,
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				},
 				{
@@ -554,7 +684,7 @@
 				"cols":
 				[
 					0.0,
-					0.971751412429,
+					0.771381578947,
 					1.0
 				],
 				"rows":
@@ -566,18 +696,22 @@
 			"menu_visible": true,
 			"output.exec":
 			{
-				"height": 182.0
+				"height": 215.0
 			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
 			"pinned_build_system": "",
-			"position": "0,2,3,-1,-1,-1,-1,530,163,0,811",
+			"position": "0,2,3,-32000,-32028,-1,-1,578,48,48,696",
 			"project": "",
 			"replace":
 			{
-				"height": 70.0
+				"height": 65.0
 			},
 			"save_all_on_build": true,
 			"select_file":
