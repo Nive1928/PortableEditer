@@ -531,7 +531,7 @@ def _act(values, target) # 行動する
       case $look
       when 0
         values = target.lookUp
-        $tarn += 
+        $tarn += 1
       when 1
         values = target.lookLeft
         $tarn += 1
@@ -557,7 +557,7 @@ loop do # ここからループ
   values = target.getReady
 
   if values[0] == 0
-    brea
+    break
   end
 #-----ここまで書き換えない-----
 
