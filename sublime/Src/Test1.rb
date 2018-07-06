@@ -12,6 +12,15 @@ loop do # 無限ループ
   #----- ここから -----
 
   values = target.getReady
+  puts values.include?(0)
+  puts values.include?(1)
+  puts values.include?(2)
+  puts values.include?(3)
+  puts (values[0..9] == 0)
+  puts (values[0..9] == 1)
+  puts (values[0..9] == 2)
+  puts (values[0..9] == 3)
+  
   if values[0] == 0 # 先頭が0になったら終了
     break
   end
@@ -48,16 +57,3 @@ loop do # 無限ループ
 end
 
 target.close # ソケットを閉じる
-
-
-
-
-if mode == 3
-  values = target.searchUp
-elsif mode == 2
-  values = target.searchRight
-elsif mode == 1
-  values = target.searchDown
-elsif mode == 4
-  values = target.searchLeft
-end

@@ -3,7 +3,7 @@
 
 require 'CHaserConnect.rb' # CHaserConnect.rbを読み込む Windows
 
-# サ../../../../../Ruby/usbrumix2-2.30/ruby/2.3/i386-mingw32/bin/ーバに接続
+# サーバに接続
 target = CHaserConnect.new("テストⅢ") # この名前を4文字までで変更する
 
 values = Array.new(10) # 書き換えない

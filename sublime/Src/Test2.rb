@@ -4,7 +4,7 @@
 require 'CHaserConnect.rb' # CHaserConnect.rbを読み込む Windows
 
 # サーバに接続
-target = CHaserConnect.new("Fushi") # この名前を4文字までで変更する
+target = CHaserConnect.new("テスト②") # この名前を4文字までで変更する
 
 values = Array.new(10) # 書き換えない
 mode = 1
@@ -15,76 +15,38 @@ loop do # 無限ループ
   if values[0] == 0        # 制御情報が0なら終了
     break
   end
-  if values[2] == 3          #上にハートがあったら
-    mode = 1
-  elsif values[4] == 3       #左にハートがあったら
-    mode = 2
-  elsif values[6] == 3       #右にハートがあったら
-    mode = 3
-  elsif values[8] == 3       #下にハートがあったら
-    mode = 4
-  end
+  
+  # modeの値で分岐する
   if mode == 1
-    if values[2] != 2
-      values = target.walkUp
-      mode = 1
-    elsif values[4] != 2
-      values = target.walkLeft
+    if values[8] != 2           # 下が壁でないなら
+      values = target.walkDown  # 下に進む
+    else                        # 下が壁なら
+      values = target.walkRight # 右に進む
       mode = 2
-    elsif values[8] != 2
-      values = target.walkDown
-      mode = 4
-    elsif values[6] != 2
-      values = target.walkRight
+    end
+  elsif mode == 2
+    if values[6] != 2           # 右が壁でないなら
+      values = target.walkRight # 右に進む
+    else                        # 右が壁なら
+      values = target.walkUp    # 上に進む
       mode = 3
     end
-  #---------------------------------------左進んだとき--------------------------------------
-  elsif mode == 2
-   if values[4] != 2
-     values = target.walkLeft
-     mode = 2
-   elsif values[8] != 2
-     values = target.walkDown
-     mode = 4
-   elsif values[2] != 2
-     values = target.walkUp
-     mode = 1
-   elsif values[6] != 2
-     values = target.walkRight
-     mode = 3
-   end
-#---------------------------------------右進んだとき--------------------------------------
- elsif mode == 3
-  if values[6] != 2
-    values = target.walkRight
-    mode = 3
-  elsif values[2] != 2
-    values = target.walkUp
-    mode = 1
-  elsif values[8] != 2
-    values = target.walkDown
-    mode = 4
-  elsif values[4] != 2
-    values = target.walkLeft
-    mode = 2
+  elsif mode == 3
+    if values[2] != 2           # 上が壁でないなら
+      values = target.walkUp    # 上に進む
+    else                        # 上が壁なら
+      values = target.walkLeft  # 左に進む
+      mode = 4
+    end
+  elsif mode == 4
+    if values[4] != 2           # 左が壁でないなら
+      values = target.walkLeft  # 左に進む
+    else                        # 左が壁なら
+      values = target.walkDown  # 下に進む
+      mode = 1
+    end
   end
-#---------------------------------------下進んだとき--------------------------------------
- elsif mode == 4
-  if values[8] != 2
-    values = target.walkDown
-    mode = 4
-  elsif values[6] != 2
-    values = target.walkRight
-    mode = 3
-  elsif values[4] != 2
-    values = target.walkLeft
-    mode = 2
-  elsif values[2] != 2
-    values = target.walkUp
-    mode = 1
-  end
-end
-#------------------------------------------------------------------------------------------
+
   if values[0] == 0 # 制御情報が0なら終了
    break
   end
