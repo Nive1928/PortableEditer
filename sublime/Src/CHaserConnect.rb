@@ -37,7 +37,8 @@ class CHaserConnect
     begin
       puts "\"#{@name.encode("UTF-8")}\"はgetReadyをサーバに送信"
       msg = @socket.gets
-      @socket.puts("gr\r\n")
+      # @socket.puts("gr\r\n") 現行のサーバーだと死ぬ #
+      @socket.puts("gr\r")
       msg = @socket.gets
       results = parseInt(msg)
       return results
